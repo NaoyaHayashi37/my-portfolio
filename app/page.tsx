@@ -9,7 +9,7 @@ export default function Home() {
       </h1>
       <p className="text-xl text-gray-600 mb-8 max-w-lg">
         電気工学専攻の大学院生です。<br />
-        Web開発と機械学習の研究に取り組んでいます。
+        アプリケーション開発、機械学習も取り組んでいます。
       </p>
 
       {/* アクションボタン */}
