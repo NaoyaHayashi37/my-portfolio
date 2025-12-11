@@ -6,8 +6,8 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "ポートフォリオサイトです",
+  title: "N.H.'s Portfolio",
+  description: "N.H.のポートフォリオサイト",
 };
 
 export default function RootLayout({
@@ -37,7 +37,7 @@ export default function RootLayout({
 
         {/* フッター（必要ならここに追加） */}
         <footer className="bg-gray-100 text-center p-4 mt-8">
-          <small>&copy; 2025 Naoya Hayashi</small>
+          <small>&copy; 2025 N.H.</small>
         </footer>
       </body>
     </html>
