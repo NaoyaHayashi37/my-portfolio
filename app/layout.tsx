@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className={inter.className}>
+      <body className={`${inter.className} flex flex-col min-h-screen`}>
         {/* ヘッダー開始 */}
         <header className="bg-gray-800 text-white p-4">
           <nav className="flex justify-between max-w-5xl mx-auto">
