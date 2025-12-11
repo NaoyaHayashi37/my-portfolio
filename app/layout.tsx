@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Link from "next/link"; // これを追加
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,7 +37,7 @@ export default function RootLayout({
 
         {/* フッター（必要ならここに追加） */}
         <footer className="bg-gray-100 text-center p-4 mt-8">
-          <small>&copy; 2024 My Name</small>
+          <small>&copy; 2025 Naoya Hayashi</small>
         </footer>
       </body>
     </html>
