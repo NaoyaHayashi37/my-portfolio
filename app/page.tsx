@@ -9,7 +9,10 @@ export default function Home() {
       </h1>
       <p className="text-xl text-gray-600 mb-8 max-w-lg">
         電気工学専攻の大学院生です。<br />
-        アプリケーション開発、機械学習も取り組んでいます。
+        アプリケーション開発、機械学習も取り組んでいます。<br />
+        <span className="inline-block mt-6 mb-2 text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">
+          ✨ 現在作成中 ✨
+        </span>
       </p>
 
       {/* アクションボタン */}

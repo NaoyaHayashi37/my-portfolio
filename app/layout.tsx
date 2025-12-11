@@ -25,8 +25,8 @@ export default function RootLayout({
               My Portfolio
             </Link>
             <div className="space-x-4">
-              <Link href="/about" className="hover:text-gray-300">About</Link>
               <Link href="/works" className="hover:text-gray-300">Works</Link>
+              <Link href="/about" className="hover:text-gray-300">About</Link>
             </div>
           </nav>
         </header>
@@ -35,9 +35,9 @@ export default function RootLayout({
         {/* 各ページの中身がここに挿入される */}
         {children}
 
-        {/* フッター（必要ならここに追加） */}
-        <footer className="bg-gray-100 text-center p-4 mt-8">
-          <small>&copy; 2025 N.H.</small>
+        {/* フッター */}
+        <footer className="bg-gray-800 text-gray-300 text-center py-6 mt-auto">
+          <small>&copy; 2025 N.H. All rights reserved.</small>
         </footer>
       </body>
     </html>
